@@ -1,0 +1,270 @@
+html {
+	background-color:#092E20;
+}
+
+body {
+	position:relative;
+	border-radius:8px;
+	box-shadow:black 0px 0px 2px;
+	width: 700px;
+	height: 700px;
+	background:#FFF;
+	margin:5px auto;
+	border:solid 1px black;
+	font-family: arial, sans-serif;
+	padding:100px;
+}
+#buttons {
+	text-align:center;
+}
+#Swap {
+	position: relative;
+	visibility: hidden;
+	top:260px;
+	left: 155px;
+}
+
+#EndTurn{
+	position: relative;
+	visibility: hidden;
+	top: 260px;
+	left: 160px;
+}
+
+#Raise{
+	position: relative;
+	visibility: hidden;
+	top:210px
+}
+#Check{
+	position: relative;
+	visibility: hidden;
+	top:110px;
+}
+#Call{
+	position: relative;
+	visibility: hidden;
+	top:260px;
+	left: -153px;
+}
+#Fold {
+	position: relative;
+	visibility: hidden;
+	top:260px;
+	left:-158px;
+}
+
+a img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+button {
+	height:30px;
+	width:100px;
+	margin:8px auto;
+}
+img.preload {
+	display:none;
+}
+h1 {
+	font-size:60px;
+	text-align:center;
+	padding:0px;
+	margin:	0px auto;
+}
+
+#card-table {
+	position: relative;
+	background-color:green;
+	height:400px;
+	width:600px;
+	border:solid 6px brown;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	box-shadow:#111 1px 1px 2px;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+a:visited {color:blue;}
+
+#deal {
+	position: absolute;
+	left:310px;
+	top:270px;
+}
+
+#Pot{
+	position: relative;
+	top:150px;
+}
+#CurrentRaise{
+	position: absolute;
+	top: 390px;
+	left: 270px
+}
+
+#PlayerNameTopMiddle{
+	position: absolute;
+	bottom: 650px;
+	left: 300px;
+}
+#PlayerChipsTopMiddle{
+	position: absolute;
+	bottom: 520px;
+	left:300px;
+}
+#PlayerActionTopMiddle{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 490px;
+	left: 300px;
+}
+
+
+
+#PlayerNameTopRight{
+	position: absolute;
+	bottom: 650px;
+	left: 580px;
+}
+#PlayerChipsTopRight{
+	position: absolute;
+	bottom: 520px;
+	left: 580px;
+}
+#PlayerActionTopRight{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 490px;
+	left: 580px;
+}
+
+
+
+#PlayerNameTopLeft{
+	position: absolute;
+	bottom: 650px;
+	left: 20px;
+}
+#PlayerChipsTopLeft{
+	position: absolute;
+	bottom: 520px;
+	left:20px;
+}
+#PlayerActionTopLeft{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 490px;
+	left: 20px;
+}
+
+
+#PlayerNameMiddleLeft{
+	position: absolute;
+	bottom: 400px;
+	left: 20px;
+}
+#PlayerChipsMiddleLeft{
+	position: absolute;
+	bottom: 250px;
+	left: 20px;
+}
+#PlayerActionMiddleLeft{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 220px;
+	left: 20px;
+}
+
+
+#PlayerNameMiddleRight{
+	position: absolute;
+	bottom: 400px;
+	left: 580px;
+}
+#PlayerChipsMiddleRight{
+	position: absolute;
+	bottom: 250px;
+	left: 580px;
+}
+#PlayerActionMiddleRight{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 220px;
+	left: 580px;
+}
+
+
+#PlayerNameBottomLeft{
+	position: absolute;
+	bottom: -10px;
+	left: 20px;
+}
+#PlayerChipsBottomLeft{
+	position: absolute;
+	bottom: 110px;
+	left: 20px;
+}
+#PlayerActionBottomLeft{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 140px;
+	left: 20px;
+}
+
+#PlayerNameBottomMiddle{
+	position: absolute;
+	bottom: -10px;
+	left: 300px;
+}
+#PlayerChipsBottomMiddle{
+	position: absolute;
+	left: 165px;
+	bottom: 0px;
+}
+
+#PlayerNameBottomRight{
+	position: absolute;
+	bottom: -10px;
+	left: 580px;
+}
+#PlayerChipsBottomRight{
+	position: absolute;
+	bottom: 110px;
+	left: 580px;
+}
+#PlayerActionBottomRight{
+	visibility: hidden;
+	outline-style: solid;
+	outline-color: red;
+	outline-offset: 5px;
+	position: absolute;
+	bottom: 140px;
+	left: 580px;
+}

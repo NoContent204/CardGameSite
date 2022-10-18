@@ -1,0 +1,31 @@
+html {
+	background-color:#092E20;
+}
+
+body {
+	position:relative;
+	border-radius:8px;
+	box-shadow:black 0px 0px 2px;
+	width: 300px;
+	background:#FFF;
+	margin:5px auto;
+	border:solid 1px black;
+	font-family: arial, sans-serif;
+	padding:100px;
+}
+
+#CreatePoker{
+	margin-left: 80px;
+	width: 148px;
+}
+#CreateGoFish{
+	margin-top: 20px;
+	margin-left: 80px;
+
+}
+#Join{
+	margin-top: 20px;
+	margin-left: 80px;
+	width: 148px;
+}
+

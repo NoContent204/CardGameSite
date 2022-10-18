@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lobby</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="lobby.css"/>
+		<script src="jquery-1.7.min.js"></script>
+	</head>
+	<body>
+			<h1 id="Title" style="text-align:center;">Lobby</h1>
+			<table id="PlayerTable">
+			  <tr>
+			    <th>Player Username</th>
+				<th>Host</th>
+			  </tr>
+			</table>
+		<button id="StartGame">Start Game</button>
+		
+		<script src="/__/firebase/7.14.4/firebase-app.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-auth.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-firestore.js"></script>
+		<script src="/__/firebase/init.js"></script>
+
+
+
+		<!-- load this at the bottom so the #card-table element exists -->
+	<script src="lobby.js"></script>
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,40 @@
+html {
+	background-color:#092E20;
+}
+
+body {
+	position:relative;
+	border-radius:8px;
+	box-shadow:black 0px 0px 2px;
+	width: 50%;
+	background:#FFF;
+	margin:5px auto;
+	border:solid 1px black;
+	font-family: arial, sans-serif;
+	padding:100px;
+}
+
+button{
+	margin-left: 800px;
+	margin-top: 20px
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#StartGame{
+	visibility: hidden;
+}

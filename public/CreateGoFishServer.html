@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create Server</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css"/>
+		<script src="jquery-1.7.min.js"></script>
+	</head>
+	<body>
+			<h1 style="text-align:center;">Create Server</h1>
+			<h2 style="text-align:center;">Enter password and server details</h2>
+			<form action="" style="text-align:center;" method="post">
+				<label for="password" >Password</label><br>
+				<input type="password" id="Pass" name="Pass" value=""><br><br>
+				<label for="NoofPlayers">Number of Players</label><br>
+				<select id="NoofPlayers" name="NoofPlayers" size="7" style="margin-right:0px">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+				</select><br><br>
+				
+				<label for="NameofServer">Server Name</label>
+				<input type="text" id="Name" name="Name" value=""><br><br>
+			</form>
+			<button id="Submit" style="margin-left:120px">Create</button>
+
+		<script src="/__/firebase/7.14.4/firebase-app.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-auth.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-firestore.js"></script>
+		<script src="/__/firebase/init.js"></script>
+		<!-- load this at the bottom so the #card-table element exists -->
+		<script src="CreateGoFishServer.js"></script>
+		<script src="cards.js"></script>
+
+
+
+	</body>
+</htm>

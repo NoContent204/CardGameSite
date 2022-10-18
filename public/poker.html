@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Poker</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="poker.css"/>
+		<script src="jquery-1.7.min.js"></script>
+	</head>
+	<body >
+			<!--	<h2 id="HandNo">Hand 1</h2>-->
+			<!--	<h2 id="RoundType">Betting</h2>-->
+			<h2 style="text-align:center;" id="WaitingFor">Waiting for </h2>
+			<!--<button onclick="testfunction()">Test</button>-->
+
+			<img class="preload" src="img/cards.png"/>
+
+			<div id="card-table">
+				<h3 id="PlayerNameTopMiddle">Test Player</h3>
+				<h4 id="PlayerChipsTopMiddle">Chips=10</h4>
+				<h4 id="PlayerActionTopMiddle">I Raise 5</h4>
+
+				<h3 id="PlayerNameTopRight">TestPlayer</h3>
+				<h4 id="PlayerChipsTopRight">Chips=10</h4>
+				<h4 id="PlayerActionTopRight">I Raise 5</h4>
+
+				<h3 id="PlayerNameTopLeft">TestPlayer</h3>
+				<h4 id="PlayerChipsTopLeft">Chips=10</h4>
+				<h4 id="PlayerActionTopLeft">I Raise 5</h4>
+
+				<h3 id="PlayerNameMiddleLeft">TestPlayer</h3>
+				<h4 id="PlayerChipsMiddleLeft">Chips=10</h4>
+				<h4 id="PlayerActionMiddleLeft">I Raise 5</h4>
+
+
+				<h3 id="PlayerNameMiddleRight">TestPlayer<h3>
+				<h4 id="PlayerChipsMiddleRight">Chips=10</h4>
+				<h4 id="PlayerActionMiddleRight">I Raise 5</h4>
+
+				<h3 id="PlayerNameBottomLeft">TestPlayer<h3>
+				<h4 id="PlayerChipsBottomLeft">Chips=10</h4>
+				<h4 id="PlayerActionBottomLeft">I Raise 5</h4>
+
+				<h3 id="PlayerNameBottomMiddle">TestPlayer</h3>
+				<h4 id="PlayerChipsBottomMiddle">Your Chips=10</h4>
+
+				<h3 id="PlayerNameBottomRight">TestPlayer</h3>
+				<h4 id="PlayerChipsBottomRight">Chips=10</h4>
+				<h4 id="PlayerActionBottomRight">I Raise 5</h4>
+
+
+				<h2 id="Pot">Pot = 50 chips</h2>
+				<h3 id="CurrentRaise">Current raise = 2</h3>
+				<!--<button id="deal">DEAL</button>-->
+				<button id="Swap">SWAP Cards</button>
+				<button id="EndTurn">End Turn</button> <!-- always visible on drawing round -->
+			  <button id="Raise">Raise</button> <!--always visible on betting round  -->
+				<button id="Fold">Fold</button> <!--always visible on betting round -->
+				<button id="Call">Call</button>  <!--only visible on betting round if a raise has been made -->
+				<button id="Check">Check</button> <!--only visible on betting round if no one has raised (figure out how to check idea:get all player docs and check recent actions for raises) -->
+			</div>
+
+		<script src="/__/firebase/7.14.4/firebase-app.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-auth.js"></script>
+		<script src="/__/firebase/7.14.4/firebase-firestore.js"></script>
+		<script src="/__/firebase/init.js"></script>
+		<!-- load this at the bottom so the #card-table element exists -->
+		<script src="cards.js"></script>
+		<script src="poker.js"></script>
+
+
+
+
+	</body>
+</html>
